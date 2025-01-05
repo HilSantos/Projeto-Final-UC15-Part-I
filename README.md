@@ -2,7 +2,7 @@
 Desenvolver um site com HTML e CSS, com os conceitos que aprendemos.
 
 body {
-    background: url('yggdrasil.jpg') no-repeat center center fixed;
+    background-image: url('yggdrasil.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Arial', sans-serif;
     color: #fff;
