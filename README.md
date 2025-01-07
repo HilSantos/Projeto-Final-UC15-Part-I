@@ -68,6 +68,7 @@ hr {
     border: none;
     border-top: 2px solid #ccc;
     margin: 20px 0;
+    color: gold;
 }
 
 footer {
