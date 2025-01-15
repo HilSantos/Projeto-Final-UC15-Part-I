@@ -1,5 +1,5 @@
-# Projeto-Final-UC15-Part-I
-Desenvolver um site com HTML e CSS, com os conceitos que aprendemos.
+# Cultura-Nordica-styles.css
+Parte um da criação do Projeto Final UC15.
 
 body {
     background-image: url('yggdrasil.jpg');
