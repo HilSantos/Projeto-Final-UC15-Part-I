@@ -2,11 +2,14 @@
 Desenvolver um site com HTML e CSS, com os conceitos que aprendemos.
 
 body {
-    background-image: url('yggdrasil.jpg') no-repeat center center fixed;
+    background-image: url('yggdrasil.jpg');
     background-size: cover;
-    font-family: 'Arial', sans-serif;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: Arial, Helvetica, sans-serif;
     color: #fff;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
 }
 
@@ -48,6 +51,39 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #fff;
     color: #000;
+}
+
+#Início a[href="index.html"],
+#Mitologia a[href="mitologia.html"],
+#Historia a[href="historia.html"],
+#Tradições a[href="tradicoes.html"],
+#Contato a[href="contato.html"]{
+background-color: #c0262c;
+}
+
+#Início aside{
+    width: 230px;
+    float: left;
+    margin-top: 30px;
+}
+
+#Início main{
+    width: 490px;
+    float: left;
+    margin: 30px 25px 10px;
+}
+
+footer{
+    clear: both;
+    border-top: 7px solid #999;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p{
+    margin: 0;
 }
 
 main {
