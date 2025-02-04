@@ -2,27 +2,32 @@
 Parte um da criação do Projeto Final UC15.
 
 body {
-    background-image: url('yggdrasil.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
+    background-image: url('C:/users/hilton.lssantos/imagens/Ygg-dra-sil.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  background: radial-gradient(circle, #6a11cb, #2575fc, #ff7e5f);
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  color: aliceblue;
 }
 
 header {
     background: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    text-align: center;
-    border-bottom: 2px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  color: #fff;
 }
 
 header h1 {
     font-size: 2.5em;
-    margin: 0;
+  margin: 0;
+  background-color: #252323;
+  height: 100px;
+  width: 100%;
+  color: white;
 }
 
 nav ul {
@@ -50,15 +55,15 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #fff;
-    color: #000;
+  color: #000;
 }
 
 #Início a[href="index.html"],
 #Mitologia a[href="mitologia.html"],
 #Historia a[href="historia.html"],
-#Tradições a[href="tradicoes.html"],
-#Contato a[href="contato.html"]{
-background-color: #c0262c;
+#Tradições a[href="tradições.html"],
+#Contato a[href="contato.html"] {
+background-color: #ff7e5f;
 }
 
 #Início aside{
