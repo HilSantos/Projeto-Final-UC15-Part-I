@@ -1,5 +1,5 @@
 # Cultura-Nordica-styles.css
-Parte um da criação do Projeto Final UC15.
+Parte um da criação do Projeto Final UC15 (outro exemplo).
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
