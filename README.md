@@ -8,10 +8,6 @@ body {
   padding: 20px;
   }
 
-  p {
-    color;
-    }
-
 h1 {
   color: #dfd32a;
   text-align: left;
